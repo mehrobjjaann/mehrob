@@ -71,15 +71,13 @@ height: 330px;
         top: 1300px;
         display: flex;
         gap: 650px;
-        overflow: hidden;
-    }
+        overflow: hidden;}
     .ftr img{
         margin-left: 170px;
-        margin-top: 30px;
-    }
+        margin-top: 30px;}
     .jj{
         margin-bottom: 30px;
-    
+        
     }
     .tx h6{
         font-size: 22px ;
