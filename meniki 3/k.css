@@ -1,0 +1,20 @@
+div{
+    border: 3px solid red;
+    width:390px;
+    height:263px;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1,2) rotate(10deg);
+    opacity: 30%;
+    transition: 2s ease-in-out;
+}
+img{
+    width: 390px;
+    height: 260px;
+}
+body{
+    background-image: url(./images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
