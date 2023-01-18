@@ -1,0 +1,67 @@
+
+
+div{
+    border-radius: 10px;
+    background-color: darkslategrey;
+    width: 230px;
+    height: 340px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px;
+    margin-right: 100px;
+    filter: blur(20px);
+}
+div:hover{
+    animation: a 3s ease-in-out infinite;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+h1{
+    text-shadow: 20px 6px 5px black;
+    color: rgb(204, 185, 185);
+}
+button:hover{
+    padding: 10px;
+    margin-left: 25px;
+    color: darkmagenta;
+    width: 80px;
+}
+.ola{
+    background-color: rgb(0, 255, 42);
+}
+.olm{
+    background-color: red;
+}
+@keyframes a{
+    0%{transform: scale(0.5);}
+    50%{transform: scale(1);}
+    100%{transform: scale(0.5);}
+}
+body{
+    background-image: url(./download.jpg);
+   
+    
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+*{
+    font-family: 'Rubik Gemstones', cursive;
+}
+.a:hover{
+    filter: blur(0px);
+    transition: all 1s;
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 70%;
+        background-color: brown;
+    }
+}
+@media screen and (max-width:450px){
+    html{font-size: 50%;
+    background-color:blue;
+}
+}
